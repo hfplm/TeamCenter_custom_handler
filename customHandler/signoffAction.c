@@ -21,6 +21,7 @@ int folderAction(EPM_action_message_t msg) {
 		for (int i = 0; i < numOfArgs; i++) {
 			ITK_ask_argument_named_value(TC_next_argument(msg.arguments), &argName, &argValue);
 
+			if(tc_strcmp())
 		}
 	}
 
