@@ -149,6 +149,7 @@
     <ClCompile Include="errorHandler.c" />
     <ClCompile Include="folderAction.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="parentOwnerAsSignoff.c" />
     <ClCompile Include="signoffAction.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

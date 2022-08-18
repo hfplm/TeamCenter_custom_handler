@@ -18,6 +18,7 @@
 #include<ae/datasettype.h>
 #include<tc/tc_startup.h>
 #include<tc/emh.h>
+#include<sa/groupmember.h>
 
 #define DLLAPI __declspec(dllexport)
 
