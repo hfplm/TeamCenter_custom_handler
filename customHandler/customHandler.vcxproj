@@ -146,6 +146,7 @@
     <ClCompile Include="checkInProcess.c" />
     <ClCompile Include="checkOwner.c" />
     <ClCompile Include="checkStatus.c" />
+    <ClCompile Include="errorHandler.c" />
     <ClCompile Include="folderAction.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="signoffAction.c" />

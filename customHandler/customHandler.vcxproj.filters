@@ -56,5 +56,8 @@
     <ClCompile Include="signoffAction.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="errorHandler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
