@@ -30,8 +30,8 @@ extern DLLAPI int login(int* decision, va_list args) {
 	// EPM_register_action_handler("C_Attach_Dataset", NULL, (EPM_action_handler_t)attachDataset);
 	// EPM_register_action_handler("C_Attach_Dataset_as_target", NULL, (EPM_action_handler_t)attachDatasetAsTarget);
 	// EPM_register_action_handler("C_Attach_Folder_contents_as_target", NULL, (EPM_action_handler_t)folderAction);
-	 EPM_register_action_handler("C_Action_Handler", NULL, (EPM_action_handler_t)signoffAction);
-	// EPM_register_action_handler("C_Action_Handler", NULL, (EPM_action_handler_t)parentOwnerAsSignoff);
+	// EPM_register_action_handler("C_Action_Handler", NULL, (EPM_action_handler_t)signoffAction);
+	 EPM_register_action_handler("C_Action_Handler", NULL, (EPM_action_handler_t)parentOwnerAsSignoff);
 
 
 	return 0;

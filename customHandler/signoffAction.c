@@ -85,7 +85,7 @@ int signoffAction(EPM_action_message_t msg) {
 			//	}
 			//}
 
-			for (int j = 0; j < signoffCount; j++) {
+			for (int j = 0; j < signoffCount; j++) {	
 
 				ifail = EPM_ask_signoff_member(signoffAttachment[j], &member, &member_type);
 				errorHandler(ifail);
